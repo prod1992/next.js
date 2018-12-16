@@ -1,0 +1,41 @@
+@import "~react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tml-header {
+  background-color: #555555;
+  box-shadow: 0 0 0 1px rgba(#000000, 0.1);
+  position: relative;
+  padding: 15px;
+}
+
+.tml-tweets--ul {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+.tml-tweet--li {
+  padding: 10px;
+}
